@@ -15,6 +15,6 @@ def encodeMorse(s):
     return encodedString
 
 
-s = 'ShubhansuKr'
-
-print(encodeMorse(s))
+# CheckPoint: TestFunction
+# s = 'Shubhansu Kumar Singh'
+# print(encodeMorse(s))
