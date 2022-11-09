@@ -4,7 +4,6 @@
 def readEnglish(): 
     f = open('english.txt', 'r')
     eng = f.read()
-    print (eng)
     f.close()
     return eng
 
@@ -21,7 +20,6 @@ def writeEnglish(decodedMorse):
 def readMorse(): 
     f = open('morse.txt', 'r')
     morse = f.read()
-    print(morse)
     f.close()
     return morse
 
