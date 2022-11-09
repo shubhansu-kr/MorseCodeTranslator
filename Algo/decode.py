@@ -11,7 +11,8 @@ def decodeMorse(s):
         letters = i.split() 
         temp = ''
         for j in letters: 
-            temp += morseDictionary[j]
+            if (j in morseDictionary.keys()):
+                temp += morseDictionary[j]
         decodedString += (temp + ' ')
     return decodedString
 

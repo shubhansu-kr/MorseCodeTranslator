@@ -11,7 +11,10 @@ def encodeMorse(s):
     print(s)
     encodedString = ''
     for c in s: 
-        encodedString += morseDictionary[c]
+        if (c in morseDictionary.keys()): 
+            encodedString += morseDictionary[c]
+        else: 
+            encodedString += c            
     return encodedString
 
 
