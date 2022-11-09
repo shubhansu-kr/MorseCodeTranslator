@@ -1,2 +1,4 @@
 .vscode
-**/_pycache_
+Algo/__pycache__/
+File/__pycache__/
+Gui/__pycache__/
