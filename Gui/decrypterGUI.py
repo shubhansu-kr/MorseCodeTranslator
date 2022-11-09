@@ -28,7 +28,7 @@ def openDecrypter(master):
         files.writeOutput(decodedString)
         
         # Write the decrypted text in the text file. 
-        files.writeEnglish(files.readMorse())
+        files.writeEnglish(decode.decodeMorse(files.readMorse()))
         
         return decodedString
 
