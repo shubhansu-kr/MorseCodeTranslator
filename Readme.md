@@ -1,3 +1,4 @@
 # Morse Code Translator
-name-Tanmay Mahajan
+Name-Tanmay Mahajan
+Name - Sri Somanjali
 Start Date: 3-OCT-2022
