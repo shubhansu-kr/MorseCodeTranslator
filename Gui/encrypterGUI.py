@@ -27,8 +27,8 @@ def openEncrypter(master):
         print('The Morse Code is :', encodedString)
         files.writeOutput(encodedString)
         
-        # Write the decrypted text in the text file. 
-        files.writeEnglish(encode.encodeMorse(files.readMorse()))
+        # Write the encrypted text in the morse file. 
+        files.writeMorse(encode.encodeMorse(files.readEnglish()))
         
         return encodedString
 

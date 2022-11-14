@@ -6,9 +6,7 @@ morseDictionary = {"a": ".-", "b": "-...", "c": "-.-.", "d": "-..", "e": ".", "f
 
 
 def encodeMorse(s):
-    print(s)
     s = s.lower()
-    print(s)
     encodedString = ''
     for c in s: 
         if (c in morseDictionary.keys()): 
