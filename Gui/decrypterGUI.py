@@ -34,7 +34,7 @@ def openDecrypter(master):
 
     def showDecryptedText():
         decryptedText = trigger()
-        DecryptedTextLabel = Label(decryptorWindow, text=decryptedText, font=("Arial", 25), bg="white", fg="black")
+        DecryptedTextLabel = Label(decryptorWindow, text=decryptedText, font=("Arial", 15), bg="white", fg="black")
         DecryptedTextLabel.place(height=174, relwidth=0.304, relx=0.348, rely=0.4)
 
     DecryptButton = Button(decryptorWindow, text="Decrypt",command=showDecryptedText)

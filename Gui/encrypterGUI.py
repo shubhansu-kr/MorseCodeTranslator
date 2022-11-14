@@ -34,7 +34,7 @@ def openEncrypter(master):
 
     def showEncryptedText():
         encryptedText = trigger()
-        EncryptedTextLabel = Label(encryptorWindow, text=encryptedText,font=("Arial", 25) , bg="white", fg="black")
+        EncryptedTextLabel = Label(encryptorWindow, text=encryptedText,font=("Arial", 15) , bg="white", fg="black")
         EncryptedTextLabel.place(height=174, relwidth=0.304, relx=0.348, rely=0.4)
 
     EncryptButton = Button(encryptorWindow, text="Encrypt",command=showEncryptedText)
